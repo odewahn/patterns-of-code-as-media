@@ -1,0 +1,251 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset="UTF-8"/>
+  <title>Patterns of Code as Media</title>
+
+  <!-- Styling -->
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='assets/html.css' rel='stylesheet' type='text/css'>
+
+  <!-- JavaScript -->
+  <!-- CSS is loaded before JavaScript in order to improve user experience -->
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script type="text/javascript"
+          src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <script type="text/javascript" src="/assets/jquery.transit.min.js"></script>
+</head>
+
+<body>
+<header>
+  <div id="buttons">
+    <i id="link-toc" class="fa fa-bars"></i>
+  </div>
+
+  <div class="heading">
+    <h1><a href="/readme">Patterns of Code as Media by Andrew Odewahn</a></h1>
+
+    <div class="social-buttons">
+      <div class="twitter">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="odewahn">Tweet</a>
+        <script>!function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+            if (!d.getElementById(id)) {
+              js = d.createElement(s);
+              js.id = id;
+              js.src = p + '://platform.twitter.com/widgets.js';
+              fjs.parentNode.insertBefore(js, fjs);
+            }
+          }(document, 'script', 'twitter-wjs');</script>
+      </div>
+      <div class="github">
+        <iframe src="http://ghbtns.com/github-btn.html?user=odewahn&repo=code-as-media&type=watch"
+                allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20">&nbsp;</iframe>
+      </div>
+    </div>
+  </div>
+
+  <a href="https://github.com/odewahn/code-as-media">
+    <img src="https://s3.amazonaws.com/orm-atlas-media/fork-on-github.png" class="fork-on-github"/>
+  </a>
+</header>
+
+<div id="flex-box">
+  <section id="sidebar">
+    
+
+<div class="toc-element clearfix">
+  <span class="fa fa-circle-o fa-2x fa-border"></span> <a href="readme.html">Introduction</a>
+</div>
+
+
+
+<div class="toc-element clearfix">
+  <span class="fa fa-circle-o fa-2x fa-border"></span> <a href="structured_sandbox.html">Structured Sandbox</a>
+</div>
+
+
+
+<div class="toc-element clearfix">
+  <span class="fa fa-circle-o fa-2x fa-border"></span> <a href="unstructured_sandbox.html">Unstructured Sandbox</a>
+</div>
+
+
+
+<div class="toc-element clearfix">
+  <span class="fa fa-circle-o fa-2x fa-border"></span> <a href="projects.html">Projects</a>
+</div>
+
+
+
+<div class="toc-element clearfix">
+  <span class="fa fa-circle-o fa-2x fa-border"></span> <a href="live_stack.html">Live Stack</a>
+</div>
+
+
+
+<div class="toc-element clearfix">
+  <span class="fa fa-circle-o fa-2x fa-border"></span> <a href="code_and_metrics.html">Code and Metrics</a>
+</div>
+
+
+
+<div class="toc-element clearfix">
+  <span class="fa fa-circle-o fa-2x fa-border"></span> <a href="evolution.html">Evolution</a>
+</div>
+
+
+
+<div class="toc-element clearfix">
+  <span class="fa fa-circle-o fa-2x fa-border"></span> <a href="execution_and_flow.html">Execution and Flow</a>
+</div>
+
+
+
+<div class="toc-element clearfix">
+  <span class="fa fa-circle-o fa-2x fa-border"></span> <a href="finding_and_searching.html">Finding and Searching</a>
+</div>
+
+
+
+<div class="toc-element clearfix">
+  <span class="fa fa-circle-o fa-2x fa-border"></span> <a href="formatting_and_annotation.html">Formatting and Annotation</a>
+</div>
+
+
+
+<div class="toc-element clearfix">
+  <span class="fa fa-circle-o fa-2x fa-border"></span> <a href="sharing.html">Sharing</a>
+</div>
+
+
+  </section>
+
+  <section id="content">
+    <section id="content-body">
+
+      <h1>Projects</h1><p>This chapter contains interesting projects that illustrate patterns
+described in prior chapters and show interesting examples of new ways
+people are learning to code. (Versus using a plain old book or reference
+website.) If you find a new project, add it here and try to note what is
+interesting about it, and which (if any) of the patterns it uses.</p>
+<h2>Coderpad</h2><p><a href="http://coderpad.io/">CoderPad</a> is a <a href="#structured_sandbox">structured
+sandbox</a> that allows two people to share screens
+(presumably, a interviewer and a job candidate.) It’s built using
+<a href="https://github.com/replit/jsrepl">jsrepl</a>, which powers a few other
+sites, like udemy and (I think, at least in an earlier incarnation)
+codecademy.</p>
+<p><img src="images/coderpad.png" alt="coderpad"></p>
+<h2>gamingjs</h2><p><a href="http://gamingjs.com/ice/">gamingjs</a> is sandbox-like code editor that
+accompanies a book published by the Prags. We don’t know a lot about
+this yet. It uses the Ace Editor.</p>
+<p><img src="images/gamingjs.png" alt="gamingjs"></p>
+<h2>Nature of Code</h2><p><a href="http://natureofcode.com/">Nature of Code</a> is Dan Shiffman’s interactive
+book on modeling natural systems in Processing. It’s got a number of
+really cool features:</p>
+<ul>
+<li><p>Running processing sketches that are sourced in at build time</p>
+</li>
+<li><p>An open github repo for contributors at
+<a href="https://github.com/shiffman/The-Nature-of-Code">shiffman/The-Nature-of-Code</a></p>
+</li>
+<li><p>An innovative payment system that allows you to set your own price</p>
+</li>
+</ul>
+<p><img src="images/natureofcode.png" alt="natureofcode"></p>
+<h2>pythonmonk</h2><p><a href="http://pythonmonk.com/">pythonmonk</a> is a free, interactive tutorials to
+help you learn Python in your browser. It uses an <a href="#unstructured_sandbox">unstructured
+sandbox</a> approach to guide you through a series
+of lessons. It’s free.</p>
+<p><img src="images/pythonmonk.png" alt="pythonmonk"></p>
+<h2>voxeljs</h2><p><a href="http://voxeljs.com/">voxeljs</a> is a javascript-based minecraft clone.
+It’s a wonderful, sprawling project that has a game player, creature
+creators, world editors, and project sharing. It’s not a documentation
+project so much as it is an example of an emerging application, but it’s
+so cool that we need to pay attention to.</p>
+<p><img src="images/voxeljs.png" alt="voxeljs"></p>
+<h2>Versal</h2><p><a href="https://versal.com/">Versal</a> is in beta.</p>
+<p>Learning gadgets Beyond video. Beyond slide decks. Versal brings
+interactivity to online learning through customizable exercises called
+“gadgets.”</p>
+<p>Drag and drop gadgets – simulations, charts and so much more - right
+into your course, no coding required.</p>
+<p>And if you do know how to code? Our JavaScript API will be available to
+developers soon. Sign up for an invite.</p>
+<p>Are you a JavaScript developer? Are you intrigued by how interactivity
+will reinvent online learning?</p>
+<p>We’ll be opening up our gadget platform/APIs very soon, and we’re
+looking for a handful of creative developers and early adopters. Sign up
+for an invite and we’ll be in touch shortly.</p>
+<p><a href="http://readwrite.com/2013/07/09/online-learning-is-broken-and-versal-wants-to-fix-it#awesm=~obdPx1gvIfi1ek">http://readwrite.com/2013/07/09/online-learning-is-broken-and-versal-wants-to-fix-it#awesm=~obdPx1gvIfi1ek</a></p>
+
+      
+
+<div class="nav-buttons">
+<ul class="nav nav-pills">
+   
+      <li>
+         <a href="unstructured_sandbox.html" title="Unstructured Sandbox"> 
+            <span class="glyphicon glyphicon-chevron-left"/> Previous
+         </a>
+      </li>
+   
+   
+      <li>
+         <a href="live_stack.html" title="Live Stack"> 
+            Next <span class="glyphicon glyphicon-chevron-right"/>
+         </a>
+      </li>
+   
+</ul>
+</div>
+
+
+      <div id="disqus_thread"></div>
+
+    </section>
+  </section>
+</div>
+
+<footer>
+  <img class="logo" src="http://orm-logo-service.herokuapp.com/webops/logo.svg"/>
+</footer>
+
+<script type="text/javascript">
+  var toggled;
+  $("#link-toc").click(function (event) {
+    event.preventDefault();
+    var sidebar = $("#sidebar");
+    if (!toggled) {
+      sidebar.transition({x: '25rem'});
+      toggled = true;
+    } else {
+      sidebar.transition({x: '-25rem'});
+      toggled = false;
+    }
+  });
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    window.disqus_shortname = 'dockerjumpstart'; // required: replace example with your forum shortname
+    window.disqus_title = $('title').text() + " / " + $('h1').first().text();
+    window.disqus_id = $('title').text() + " / " + $('section').first().attr('id');
+
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+      var dsq = document.createElement('script');
+      dsq.type = 'text/javascript';
+      dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  });
+</script>
+</body>
+</html>

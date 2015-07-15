@@ -1,0 +1,303 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset="UTF-8"/>
+  <title>Patterns of Code as Media</title>
+
+  <!-- Styling -->
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='assets/html.css' rel='stylesheet' type='text/css'>
+
+  <!-- JavaScript -->
+  <!-- CSS is loaded before JavaScript in order to improve user experience -->
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script type="text/javascript"
+          src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <script type="text/javascript" src="/assets/jquery.transit.min.js"></script>
+</head>
+
+<body>
+<header>
+  <div id="buttons">
+    <i id="link-toc" class="fa fa-bars"></i>
+  </div>
+
+  <div class="heading">
+    <h1><a href="/readme">Patterns of Code as Media by Andrew Odewahn</a></h1>
+
+    <div class="social-buttons">
+      <div class="twitter">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="odewahn">Tweet</a>
+        <script>!function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+            if (!d.getElementById(id)) {
+              js = d.createElement(s);
+              js.id = id;
+              js.src = p + '://platform.twitter.com/widgets.js';
+              fjs.parentNode.insertBefore(js, fjs);
+            }
+          }(document, 'script', 'twitter-wjs');</script>
+      </div>
+      <div class="github">
+        <iframe src="http://ghbtns.com/github-btn.html?user=odewahn&repo=code-as-media&type=watch"
+                allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20">&nbsp;</iframe>
+      </div>
+    </div>
+  </div>
+
+  <a href="https://github.com/odewahn/code-as-media">
+    <img src="https://s3.amazonaws.com/orm-atlas-media/fork-on-github.png" class="fork-on-github"/>
+  </a>
+</header>
+
+<div id="flex-box">
+  <section id="sidebar">
+    
+
+<div class="toc-element clearfix">
+  <span class="fa fa-circle-o fa-2x fa-border"></span> <a href="readme.html">Introduction</a>
+</div>
+
+
+
+<div class="toc-element clearfix">
+  <span class="fa fa-circle-o fa-2x fa-border"></span> <a href="structured_sandbox.html">Structured Sandbox</a>
+</div>
+
+
+
+<div class="toc-element clearfix">
+  <span class="fa fa-circle-o fa-2x fa-border"></span> <a href="unstructured_sandbox.html">Unstructured Sandbox</a>
+</div>
+
+
+
+<div class="toc-element clearfix">
+  <span class="fa fa-circle-o fa-2x fa-border"></span> <a href="projects.html">Projects</a>
+</div>
+
+
+
+<div class="toc-element clearfix">
+  <span class="fa fa-circle-o fa-2x fa-border"></span> <a href="live_stack.html">Live Stack</a>
+</div>
+
+
+
+<div class="toc-element clearfix">
+  <span class="fa fa-circle-o fa-2x fa-border"></span> <a href="code_and_metrics.html">Code and Metrics</a>
+</div>
+
+
+
+<div class="toc-element clearfix">
+  <span class="fa fa-circle-o fa-2x fa-border"></span> <a href="evolution.html">Evolution</a>
+</div>
+
+
+
+<div class="toc-element clearfix">
+  <span class="fa fa-circle-o fa-2x fa-border"></span> <a href="execution_and_flow.html">Execution and Flow</a>
+</div>
+
+
+
+<div class="toc-element clearfix">
+  <span class="fa fa-circle-o fa-2x fa-border"></span> <a href="finding_and_searching.html">Finding and Searching</a>
+</div>
+
+
+
+<div class="toc-element clearfix">
+  <span class="fa fa-circle-o fa-2x fa-border"></span> <a href="formatting_and_annotation.html">Formatting and Annotation</a>
+</div>
+
+
+
+<div class="toc-element clearfix">
+  <span class="fa fa-circle-o fa-2x fa-border"></span> <a href="sharing.html">Sharing</a>
+</div>
+
+
+  </section>
+
+  <section id="content">
+    <section id="content-body">
+
+      <h1>Unstructured sandbox</h1><p>An unstructured sandbox provides an open ended, terminal-like model for
+entering and executing code. These terminals can be embedded inline in
+the page, opened with a click of a button, or iframed into the structure
+of the overall documents.</p>
+<ul>
+<li><p>Strengths</p>
+<ul>
+<li>Editorial flexibility — allows the author to insert whatever
+types of content he or she will best describe the topic</li>
+</ul>
+</li>
+<li><p>Weaknesses</p>
+<ul>
+<li><p>Design inflexibility. These often appear as iframes or something
+disruptive to the overall experience.</p>
+</li>
+<li><p>Non-integrated. Unless care is taken, the sandbox can feel like
+an editorial afterthought.</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>Examples include:</p>
+<h2>repl.it</h2><p><a href="http://repl.it/">repl.it</a> is a tool that uses various compiled
+languages (Python, Ruby, and Lua, among others). The site offers a code
+runner, an output pane, a surprisingly wide selection on languages, and
+a nice selection of samples for each type.</p>
+<p><img src="images/replit.png" alt="replit"></p>
+<h2>Programr</h2><p><a href="http://www.programr.com/">Programr</a> runs languages in the browser
+including console (C++, C#, Java, Objective-C), web (PHP, Javascript,
+JQuery, Java Server Pages, AJAX), rich media (Flex, Processing), desktop
+(Java Swing), and database (SQL, SQLite). Others on the site include
+Ruby, Python, VB, AJAX, Flex, Flash, iOS, Android, and more.</p>
+<p><strong>Andrew’s analysis:</strong> &quot;though it supports a pretty wide selection of
+languages, performance it pretty terrible. Like, check out these ruby
+examples:</p>
+<p><a href="http://www.programr.com/append-and-concatination">http://www.programr.com/append-and-concatination</a>
+<a href="http://www.programr.com/using-loop-1">http://www.programr.com/using-loop-1</a></p>
+<p>They each take 9-10 seconds to evaluate.&quot;</p>
+<h2>Twilio Pair Programming</h2><p><a href="http://www.twilio.com/blog/2013/06/pair-programming-in-the-browser-with-twilio.html">http://www.twilio.com/blog/2013/06/pair-programming-in-the-browser-with-twilio.html</a></p>
+<p>The tools for creating real-time applications in the browser are getting
+better all the time. Running node.js on the server, in conjunction with
+libraries like socket.io, makes it ridiculously simple to facilitate
+server push and event-driven communication between clients. Combine this
+with Twilio Client for voice communication in the browser and you have
+an incredibly powerful platform for facilitating communication between
+users of your application.</p>
+<p>Pair programming live with a distributed team is very much a possibility
+with some of the technologies we’ll look at today. Let’s run through a
+list of ingredients for this hack: * node.js on the server * The
+official twilio node module, available on npm * The Twilio Client
+JavaScript SDK (for the browser) * socket.io (both server and browser)
+* Express for routing HTTP requests and serving up responses * Ace
+code editor (browser) * AppFog (platform as a service for hosting)</p>
+<h2>iPython Notebook</h2><p><a href="http://ipython.org/notebook.html">iPython Notebook</a> is a tool for
+viewing python in the browser. The author writes in an integrated
+environment (the native format is JSON) that allows text, equations, and
+live code. (The code executes on a remote server.) The output of the
+code is presented in a terminal style format. One of the other really
+nice features is that it is simple to embed images, like those generated
+from numerical or scientific tools like numpy or scipy.</p>
+<p><img src="images/ipython_notebook.png" alt="ipython notebook"></p>
+<h2>Khan Academy</h2><p><a href="https://www.khanacademy.org">Khan Academy</a> provides a vast array of
+learning classes around basic computer science. There are typically a
+video or animation for each step, after which the student is able to
+experiment with the code in the sandbox. The coding environment is
+divided into a pane for listing and a pane for the output, where the
+student can see the result. (Currently, only Javascript-based languages
+seem to be supported.) The code environment also supports a &quot;Save as a
+spin off&quot; button where the user can save the code listing to his or her
+own private account for modification.</p>
+<p><img src="images/khan_academy.png" alt="khan academy"></p>
+<h2>Scratch</h2><p><a href="http://scratch.mit.edu/projects/editor/?tip_bar=getStarted">Scratch</a> is
+an interactive learning environment geared towards kids. The user edits
+code in an IDE-like window. Tips, instructions, and tutorials can be
+appear in a sidepanel called &quot;Tips&quot; that can be turned on or off. The
+user can also save their programs (which are often like small animations
+or movies) so that they can be shared.</p>
+<p><img src="images/scratch.png" alt="scratch"></p>
+<h2>JQFundamentals</h2><p><a href="http://jqfundamentals.com/">jqfundamentals</a>is a site for teaching
+javascript. It walks through a rich set of concepts that are illustrated
+with specific code examples. You can click on a small icon on the
+example to open a live code editor where you can run the example.</p>
+<p><img src="images/jqfundamentals.png" alt="jqfundamentals"></p>
+<h2>Chimera</h2><p><a href="http://chimera.labs.oreilly.com/">O’Reilly Chimera</a> is a new beta site
+for experimenting with how books can become more interactive. At it’s
+current start of development, the site has embedded JSBins that allow
+the reader to try out the code. (Javascript only.)</p>
+<p><img src="images/chimera.png" alt="chimera"></p>
+<h2>Opal</h2><p><a href="http://opalrb.org/">Opal</a> is a ruby to javascript compiler. It is
+source-to-source, making it fast as a runtime. Opal includes a compiler
+(which can be run in any browser), a corelib and runtime implementation.
+The corelib/runtime is also very small (10.8kb gzipped).</p>
+<p><img src="images/opalrb.png" alt="opalrb"></p>
+<h2>try clojure</h2><p><a href="http://tryclj.com/">Try Clojure</a> is an online sandbox for using
+Clojure, a dynamic programming language that targets the Java Virtual
+Machine (and the CLR, and JavaScript). It is designed to be a
+general-purpose language, combining the approachability and interactive
+development of a scripting language with an efficient and robust
+infrastructure for multithreaded programming.</p>
+<p><img src="images/tryclojure.png" alt="tryclojure"></p>
+<h2>forio julia tutorial</h2><p><a href="http://forio.com/julia/repl/">Julia Tutorial</a> is an interactive
+tutorial for the julia language. It’s sturcuted as a command-line style
+tutoral, where the user can tye commands like &quot;tutorial&quot; or &quot;next&quot; that
+prompt you to try specific elements of the language.</p>
+<p><img src="images/golang_forio_tutorial.png" alt=""></p>
+
+      
+
+<div class="nav-buttons">
+<ul class="nav nav-pills">
+   
+      <li>
+         <a href="structured_sandbox.html" title="Structured Sandbox"> 
+            <span class="glyphicon glyphicon-chevron-left"/> Previous
+         </a>
+      </li>
+   
+   
+      <li>
+         <a href="projects.html" title="Projects"> 
+            Next <span class="glyphicon glyphicon-chevron-right"/>
+         </a>
+      </li>
+   
+</ul>
+</div>
+
+
+      <div id="disqus_thread"></div>
+
+    </section>
+  </section>
+</div>
+
+<footer>
+  <img class="logo" src="http://orm-logo-service.herokuapp.com/webops/logo.svg"/>
+</footer>
+
+<script type="text/javascript">
+  var toggled;
+  $("#link-toc").click(function (event) {
+    event.preventDefault();
+    var sidebar = $("#sidebar");
+    if (!toggled) {
+      sidebar.transition({x: '25rem'});
+      toggled = true;
+    } else {
+      sidebar.transition({x: '-25rem'});
+      toggled = false;
+    }
+  });
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    window.disqus_shortname = 'dockerjumpstart'; // required: replace example with your forum shortname
+    window.disqus_title = $('title').text() + " / " + $('h1').first().text();
+    window.disqus_id = $('title').text() + " / " + $('section').first().attr('id');
+
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+      var dsq = document.createElement('script');
+      dsq.type = 'text/javascript';
+      dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  });
+</script>
+</body>
+</html>
