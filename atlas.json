@@ -1,0 +1,46 @@
+{
+  "branch": "master",
+  "files": [
+    "public/readme.md",
+    "public/structured_sandbox.md",
+    "public/unstructured_sandbox.md",
+    "public/projects.md",
+    "public/code_and_metrics.md",
+    "public/evolution.md",
+    "public/execution_and_flow.md",
+    "public/finding_and_searching.md",
+    "public/formatting_and_annotation.md",
+    "public/sharing.md"
+  ],
+  "formats": {
+    "pdf": {
+      "version": false,
+      "index": false,
+      "toc": false,
+      "syntaxhighlighting": false,
+      "show_comments": false
+    },
+    "epub": {
+      "index": false,
+      "toc": false,
+      "epubcheck": false,
+      "syntaxhighlighting": false,
+      "show_comments": false
+    },
+    "mobi": {
+      "index": false,
+      "toc": false,
+      "syntaxhighlighting": false,
+      "show_comments": false
+    },
+    "html": {
+      "index": false,
+      "toc": false,
+      "syntaxhighlighting": false,
+      "show_comments": false,
+      "consolidated": false
+    }
+  },
+  "theme": "oreillymedia/atlas_trade_theme",
+  "title": "Patterns of Code as Media"
+}
