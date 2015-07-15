@@ -1,0 +1,46 @@
+{
+   "contents": {
+     "readme": {
+         "title" : "Introduction",
+         "icon": "fa-th"
+      },
+      "structured_sandbox": {
+         "title" : "Structured Sandbox",
+         "icon": "fa-book"
+      },
+      "unstructured_sandbox": {
+         "title" : "Unstructured Sandbox",
+         "icon": "fa-book"
+      },
+      "projects": {
+         "title" : "Projects",
+         "icon": "fa-cloud-upload"
+      },
+      "code_and_metrics": {
+         "title" : "Code and Metrics",
+         "icon": "fa-laptop"
+      },
+      "evolution": {
+         "title" : "Evolution",
+         "icon": "fa-align-justify"
+      },
+      "execution_and_flow": {
+         "title" : "Execution and Flow",
+         "icon": "fa-bolt"
+      },
+      "finding_and_searching": {
+         "title" : "Finding and Searching",
+         "icon": "fa-gears"
+      },
+      "formatting_and_annotation": {
+         "title" : "Formatting and Annotation",
+         "icon": "fa-file-text-o"
+      },
+      "sharing": {
+         "title" : "Sharing",
+         "icon": "fa-bar-chart"
+      }
+   },
+   "testimonials": [
+   ]
+}
