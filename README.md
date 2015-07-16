@@ -7,6 +7,8 @@ code: what are the best ways to see, learn, and understand a topic.
 People are learning in new ways, and we want to understand the patterns
 that are emerging.
 
+<a href="http://odewahn.github.io/patterns-of-code-as-media/www/index.html">Read it online</a>.
+
 ## Contributing
 
 This book is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).  I encourage you to fork my work and make your own improvements under the terms of the license. If you have any changes you want to send back our way, please make a regular pull request via Github. If the authors like your changes, they may integrate them into the official repo and give you a credit. If you just have an issue to report, please use the regular Github issue system.
