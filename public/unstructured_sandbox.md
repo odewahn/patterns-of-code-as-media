@@ -70,10 +70,10 @@ JavaScript SDK (for the browser) \* socket.io (both server and browser)
 \* Express for routing HTTP requests and serving up responses \* Ace
 code editor (browser) \* AppFog (platform as a service for hosting)
 
-iPython Notebook
+IPython Notebook
 ----------------
 
-[iPython Notebook](http://ipython.org/notebook.html) is a tool for
+[IPython Notebook](http://ipython.org/notebook.html) is a tool for
 viewing python in the browser. The author writes in an integrated
 environment (the native format is JSON) that allows text, equations, and
 live code. (The code executes on a remote server.) The output of the
