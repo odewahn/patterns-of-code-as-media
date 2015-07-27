@@ -47,12 +47,24 @@ really cool features:
 pythonmonk
 ----------
 
-[pythonmonk](http://pythonmonk.com/) is a free, interactive tutorials to
+[pythonmonk](http://pythonmonk.com/) is a free, interactive tutorial to
 help you learn Python in your browser. It uses an [unstructured
 sandbox](#unstructured_sandbox) approach to guide you through a series
 of lessons. It’s free.
 
 ![pythonmonk](images/pythonmonk.png)
+
+Scrapbook
+----------
+
+[Scrapbook](http://www.joinscrapbook.com/) teaches users about Docker and Git
+using a Linux terminal served from a browser page. Scapbook is both
+a [structured sandbox](#structured_sandbox) and [unstructured
+sandbox](#unstructured_sandbox) learning environment. There are guided
+scenarios but it is also possible to go "off script" and move about the
+terminal on your own.
+
+![Scrapbook](images/scrapbook_docker.png)
 
 voxeljs
 -------
