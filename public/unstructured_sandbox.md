@@ -161,3 +161,9 @@ tutoral, where the user can tye commands like "tutorial" or "next" that
 prompt you to try specific elements of the language.
 
 ![](images/golang_forio_tutorial.png)
+
+## Python Tutor
+
+http://www.pythontutor.com/ is a tool for learning Python, Java, JavaScript, TypeScript, and Ruby. So far, over 1.2 million people have used this tool for self-learning, often in conjunction with taking MOOCs and reading online textbooks.
+
+![Python Tutor](images/python-tutor.png)
