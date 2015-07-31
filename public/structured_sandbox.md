@@ -45,7 +45,7 @@ well as the "unit tests" that describe the correct answer. While the
 classes have generated a lot of buzz and garnered many signups, they
 have a high incompletion rate.
 
-![codecademy](images/codecademy.com)
+![codecademy](images/codecademy.png)
 
 Code School (Rails for Zombies, Try Objective-C, etc.)
 ------------------------------------------------------
